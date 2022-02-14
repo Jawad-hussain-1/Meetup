@@ -12,7 +12,7 @@ function App() {
     <Layout>      
      <Routes>
       
-      <Route path='/'  element={<AllMeetups/>}>
+      <Route path='/allmeetups'  element={<AllMeetups/>}>
         </Route>
               <Route path='/newmeetup'element={<NewMeetup/>}>
                 </Route>
